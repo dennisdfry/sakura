@@ -1,0 +1,26 @@
+
+
+
+
+section{
+    height:100vh;
+    width:100%;
+    background-image:url('./../../assets/img/hero_bg.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    >h1{
+        color:rgb(253, 253, 253);
+        font-weight: 800;
+        font-size: 40px;
+    }
+    >h2 {
+        color: aliceblue;
+        font-size: 32px;
+    }
+}
